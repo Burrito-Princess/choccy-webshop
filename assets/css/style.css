@@ -1,12 +1,23 @@
-#right{
-    float: right;
-}
-
+/*top bar */
 #topbar{
     height: 50px;
     width: 1000px;
     border: 10px solid black;
 }
+
+#right{
+    float: right;
+}
+
+#left{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*main bar*/
 
 #mainbar{
     position: relative;
@@ -17,35 +28,9 @@
     display: flex;
 }
 
-#left{
-    float: left;
-}
-
 #arms{
     height: 60px;
     transform: translateY(10%);
-}
-
-.clearfix{
-    clear: both;
-}
-
-#mainpage{
-    height: auto;
-    width: 1000px;
-    border: 10px solid black;
-    border-top: 0px;
-}
-
-.sidepannel{
-    height: auto;
-    width: 200px;
-    border: 5px solid black;
-    margin: 20px;
-    border-top: 8px solid lightblue;
-}
-
-#arms{
     position: relative;
     height: 90%;
     width:auto;
@@ -54,12 +39,10 @@
 #divarms{
     text-align: center;
     width: 10%;
-    /* background-color: blueviolet; */
 }
 
 #choices{
     width: 60%;
-    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,19 +56,33 @@
 #searchandsuch{
     text-align: right;
     width: 30%;
-    /* background-color: aqua; */
     align-items: center;
     justify-content: right;
     display: flex;
 }
 
-#form{
-    display: flex;
-    height: 10%;
-}
+/*main page*/
 
 #mainpage{
+    height: auto;
+    width: 1000px;
+    border: 10px solid black;
+    border-top: 0px;
     display: flex;
+}
+
+#flexmain{
+    display: flex;
+    flex-direction: column;
+}
+/*sidepannels*/
+
+.sidepannel{
+    height: auto;
+    width: 200px;
+    border: 5px solid black;
+    margin: 20px;
+    border-top: 8px solid lightblue;
 }
 
 #sidepanels{
@@ -93,10 +90,49 @@
     flex-direction: column;
 }
 
+.line{                              
+    width: 112px;
+    height: 3px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    margin-left:10px;
+}
+
+.sidetitle{
+    margin:0px;
+    margin-left: 10px;
+}
+
+.subcattitle{
+    margin-left: 5px;
+}
+
+.inschrijven{
+    margin-left: 10px;
+}
+
+#linkmoreselect{
+    margin: 0px;
+    margin-right: 5px;
+}
+
+#sideimg{
+    height: 70px;
+    width: 70px;
+}
+
+#sideflex{
+    display:flex;
+    line-height: 0.2;
+}
+
+/* title main page*/
+
 #form{
+    display: flex;
+    height: 10%;
     text-align: right;
     width: 100%;
-    /* background-color: rgb(0, 0, 255); */
     justify-content: right;
     display: flex;
     border: 10px solid black;
@@ -106,15 +142,21 @@
 #title{
     margin-left: 10px;
     width: 40%;
-    /* background-color: rgb(123, 239, 137); */
     justify-content: left;
     display: flex;
 }
 
-#flexmain{
-    display: flex;
-    flex-direction: column;
+.line2{
+    width: 200px;
+    height: 3px;
+    margin-top: 40px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    margin-left:5px;
+
 }
+
+/*items*/
 
 #items{
     height: 100%;
@@ -142,46 +184,7 @@
     height: 126px;
 }
 
-.line{
-    width: 112px;
-    height: 3px;
-    border-bottom: 3px solid black;
-    position: absolute;
-    margin-left:10px;
-}
-
-.line2{
-    width: 200px;
-    height: 3px;
-    margin-top: 40px;
-    border-bottom: 3px solid black;
-    position: absolute;
-    margin-left:5px;
-
-}
-
-.sidetitle{
-    margin:0px;
-    margin-left: 10px;
-}
-.subcattitle{
-    margin-left: 5px;
-}
-
-#linkmoreselect{
-    margin: 0px;
-    margin-right: 5px;
-}
-
-#sideimg{
-    height: 70px;
-    width: 70px;
-}
-
-#sideflex{
-    display:flex;
-    line-height: 0.2;
-}
+/* general */
 
 .greytext{
     color: grey;
@@ -194,9 +197,7 @@
     color: lightskyblue;
 }
 
-.inschrijven{
-    margin-left: 10px;
-}
+
 
 #sumbitbutton{
     background-color:lightskyblue;

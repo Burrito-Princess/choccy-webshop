@@ -1,0 +1,218 @@
+#right{
+    float: right;
+}
+
+#topbar{
+    height: 50px;
+    width: 1000px;
+    border: 10px solid black;
+}
+
+#mainbar{
+    position: relative;
+    height: 100px;
+    width: 1000px;
+    border: 10px solid black;
+    border-top: 0px;
+    display: flex;
+}
+
+#left{
+    float: left;
+}
+
+#arms{
+    height: 60px;
+    transform: translateY(10%);
+}
+
+.clearfix{
+    clear: both;
+}
+
+#mainpage{
+    height: auto;
+    width: 1000px;
+    border: 10px solid black;
+    border-top: 0px;
+}
+
+.sidepannel{
+    height: auto;
+    width: 200px;
+    border: 5px solid black;
+    margin: 20px;
+    border-top: 8px solid lightblue;
+}
+
+#arms{
+    position: relative;
+    height: 90%;
+    width:auto;
+}
+
+#divarms{
+    text-align: center;
+    width: 10%;
+    /* background-color: blueviolet; */
+}
+
+#choices{
+    width: 60%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbutton{
+    border: 3px solid black;
+    margin: 3px;
+}
+
+#searchandsuch{
+    text-align: right;
+    width: 30%;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+#form{
+    display: flex;
+    height: 10%;
+}
+
+#mainpage{
+    display: flex;
+}
+
+#sidepanels{
+    display: flex;
+    flex-direction: column;
+}
+
+#form{
+    text-align: right;
+    width: 100%;
+    /* background-color: rgb(0, 0, 255); */
+    justify-content: right;
+    display: flex;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+#title{
+    margin-left: 10px;
+    width: 40%;
+    /* background-color: rgb(123, 239, 137); */
+    justify-content: left;
+    display: flex;
+}
+
+#flexmain{
+    display: flex;
+    flex-direction: column;
+}
+
+#items{
+    height: 100%;
+    width: 630px;
+    border: 10px solid black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 200px;
+    width: 126px;
+    margin: 10px;
+    border: 5px solid black;
+    line-height: 0.2;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+.img{
+    width: 126px;
+    height: 126px;
+}
+
+.line{
+    width: 112px;
+    height: 3px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    margin-left:10px;
+}
+
+.line2{
+    width: 200px;
+    height: 3px;
+    margin-top: 40px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    margin-left:5px;
+
+}
+
+.sidetitle{
+    margin:0px;
+    margin-left: 10px;
+}
+.subcattitle{
+    margin-left: 5px;
+}
+
+#linkmoreselect{
+    margin: 0px;
+    margin-right: 5px;
+}
+
+#sideimg{
+    height: 70px;
+    width: 70px;
+}
+
+#sideflex{
+    display:flex;
+    line-height: 0.2;
+}
+
+.greytext{
+    color: grey;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.bluetext{
+    margin-left: 7px;
+    color: lightskyblue;
+}
+
+.inschrijven{
+    margin-left: 10px;
+}
+
+#sumbitbutton{
+    background-color:lightskyblue;
+    height: 30px;
+}
+
+.itemtitle{
+    margin-left: 10px;
+}
+
+#articles{
+    margin-top: 60px;
+    
+}
+
+.cart{
+    height: 20px;
+    margin-top: 40px;
+}

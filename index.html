@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eindopdracht3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="topbar">
+        <div id="left">
+            <form>
+                Language: <input id="lang" type="text" name="language" list="langs">
+                <datalist id="langs">
+                    <option value="dutch"></option>
+                    <option value="english"></option>
+                    <option value="french"></option>
+                    <option value="german"></option>
+                    <option value="spanish"></option>
+                </datalist>
+            </form>
+        </div>
+        <div id="right">
+            <a href="https://www.youtube.com">mijn account</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.youtube.com">afrekenen</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.youtube.com">inloggen</a>
+        </div>
+    </div>
+        <div class="clearfix"></div>
+    <div id="mainbar">
+        <div id="divarms">
+            <img id="arms" alt="choccy coat of arms" src="./assets/coatofarms.png">
+        </div>  
+        <div id="choices">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="home">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="muurdecoratie">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="doosjes">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="opbergers">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="stools">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="gadget">
+        </div>
+        <div id="searchandsuch">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="search">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="vergelijk">
+            <input class="topbutton" type="button" onclick="location.href='https://google.com';" value="winkelwagen">
+        </div>
+    </div>
+    <div id="mainpage">
+        <div id="sidepanels">
+            <p><a href="index.html">home</a>&nbsp;&nbsp;>&nbsp;&nbsp;doosjes</p>
+            <div class="sidepannel">
+                <p class="sidetitle">Doosjes</p>
+                <div class="line"></div>
+                <p>&nbsp;> Subcategorie 1</p>
+                <p>&nbsp;> Subcategorie 2</p>
+                <p>&nbsp;> Subcategorie 3</p>
+            </div>
+            <div class="sidepannel">
+                <p class="sidetitle">Uw selectie verfijnen</p>
+                <div class="line"></div>
+                <h3 class="subcattitle">materiaal</h3>
+                <p>&nbsp;> Subcategorie 1</p>
+                <p>&nbsp;> Subcategorie 2</p>
+                <p>&nbsp;> Subcategorie 3</p>
+                <a id="linkmoreselect" href="https://www.youtube.com">more</a>
+            </div>
+            <div class="sidepannel">
+                <p class="sidetitle">Prijs</p> 
+                <div class="line"></div>
+                <br>
+                <input type="range" min="10" max="100" step="5">
+            </div>
+            <div class="sidepannel">
+               <p id="sidetitle">Recent bekeken</p> 
+               <div class="line"></div>
+               <div id="sideflex">
+                    <div><img alt="teamchocc" id="sideimg" src="./assets/teamchocc.jpeg" ></div>
+                    <div>
+                        <p class="subcattitle">teamchocc</p>
+                        <p class="greytext">11,95</p>
+                        <p class="bluetext">13,95</p>
+                    </div>
+               </div>
+            </div>
+            <div class="sidepannel">
+                <p class="sidetitle">Nieuws brief</p>
+                <div class="line"></div>
+                <br>
+                <form>
+                    <input class="inschrijven" type="text">
+                    <br><br>
+                    <input id="sumbitbutton" class="inschrijven" type="submit" value="inschrijven">
+                </form>
+            </div>
+            <div class="sidepannel">Producten vergelijken</div>
+        </div>
+        <div id="flexmain">
+            <div id="form">
+                <div id="title">
+                    <p>Doosjes</p>
+                    <div class="line2"></div>
+                    <div id="articles">10 artikelen</div>
+                </div>
+                
+                <div id="selection">
+                    <form>
+                        <input id="sorting" type="text" value="price: lowest to highest" name="sorting" list="sort">
+                            <datalist id="sort">
+                                <option>price: lowest to highest</option>
+                                <option>price: highest to lowest</option>
+                                <option>populairity</option>
+                                <option>recommended</option>
+                            </datalist>
+                            <input id="amountpp" type="text" value="9 per page" name="sorting" list="amount">
+                            <datalist id="amount">
+                                <option>9 per page</option>
+                                <option>12 per page</option>
+                                <option>15 per page</option>
+                                <option>18 per page</option>
+                                <option>21 per page</option>
+                            </datalist>
+                    </form>
+                </div>
+            </div>
+            <div id="items">
+                <div class="item">
+                    <img class="img" alt="flavoured choccy" src="./assets/240ml-flavoured-chocolate-square.png">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img alt="shopping cart" class="cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="vector chocc" src="./assets/chocolate-milk-box-vector-illustration-cute-design-isolated-white-background-chocolate-milk-box-vector-illustration-164393905.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="item">
+                    <img class="img" alt="january chocc" src="./assets/ChocolateMilk_Jan2021_square-scaled-1.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="chocc" src="./assets/squarechocc1.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="bland chocc" src="./assets/blandchocc.webp">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="emoji chocc" src="./assets/emoijchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="gun chocc" src="./assets/gunchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="splash chocc" src="./assets/splashchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img alt="shopping cart" class="cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="team chocc" src="./assets/teamchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="item">
+                    <img class="img" alt="flavoured chocc" src="./assets/240ml-flavoured-chocolate-square.png">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="vector chocc" src="./assets/chocolate-milk-box-vector-illustration-cute-design-isolated-white-background-chocolate-milk-box-vector-illustration-164393905.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="item">
+                    <img class="img" alt="january chocc" src="./assets/ChocolateMilk_Jan2021_square-scaled-1.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="chocc" src="./assets/squarechocc1.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="bland chocc" src="./assets/blandchocc.webp">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="emoji chocc" src="./assets/emoijchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="gun chocc" src="./assets/gunchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="splash chocc" src="./assets/splashchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="team chocc" src="./assets/teamchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="item">
+                    <img class="img" alt="splash chocc" src="./assets/splashchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" alt="team chocc" src="./assets/teamchocc.jpeg">
+                    <div class="flexcontainer">
+                        <div>
+                            <p class="itemtitle">Choccy milk</p>
+                            <p class="greytext">20,95</p>
+                            <p class="bluetext">19,95</p>
+                        </div> 
+                        <div>
+                            <a href="https://www.youtube.com"><img class="cart" alt="shopping cart" src="./assets/shoppingcart.png"></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
